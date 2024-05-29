@@ -1,0 +1,71 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkList {
+  list-style-type: none;
+  /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.linkItem {
+  display: inline-block;
+  /* Display links in the same line */
+  margin-right: 10px;
+  /* Space between the links */
+}
+
+.link {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  /* Text color */
+  text-decoration: none;
+  /* Remove underline */
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  /* Gradient background */
+  transition: background 0.3s ease;
+}
+
+.link:hover {
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+  /* Hover effect */
+}
+
+.buttonContainer {
+  margin-top: 20px;
+  /* Spacing between links and button */
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+  /* Spacing between header and links */
+  background: linear-gradient(135deg, #ff8008 0%, #ffc837 100%);
+  /* Gradient background for header */
+  padding: 10px 20px;
+  border-radius: 5px;
+}
