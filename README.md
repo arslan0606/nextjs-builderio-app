@@ -27,6 +27,6 @@ This project is a Next.js application that integrates with Builder.io to render 
 5. run the below command to install all the packages 
    npm i
 6. run the below command to start the application in development mode
-   npm start
+   npm run dev
 7. run the below command to run tests on the application
-npm run tests
+   npm run test
